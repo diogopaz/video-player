@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <title>Player de vídeo</title>
+</head>
+
+<body>
+    <div class="container">
+        <video width="400px" class="video" src="./assets/video.mp4"></video>
+        <div class="controls">
+            <img onclick="play()" class="btn play" src="./assets/controls/play-button.png" alt="" title="Iniciar">
+            <img hidden onclick="pause()" class="btn pause" src="./assets/controls/pause-button.png" alt=""
+                title="Pausar">
+            <img onclick="stop()" class="btn stop" src="./assets/controls/stop-button.png" alt="" title="Parar">
+            <img onclick="rewind()" class="btn" src="./assets/controls/fast-rewind.png" alt="" title="Voltar 10s">
+            <img onclick="advance()" class="btn" src="./assets/controls/fast-forward.png" alt="" title="Pular 10s">
+            <img onclick="decreaseSpeed()" class="btn" src="./assets/controls/playback-speed-down.png" alt=""
+                title="Desacelerar vídeo">
+            <img onclick="increaseSpeed()" class="btn" src="./assets/controls/playback-speed-up.png" alt=""
+                title="Acelerar vídeo">
+        </div>
+    </div>
+    <footer>
+        <a href="https://www.streamlinehq.com">Free Control buttons PNG icons by Streamline</a>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

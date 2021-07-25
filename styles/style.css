@@ -1,0 +1,46 @@
+.container {
+    position: absolute;
+    width: 640px;
+    height: 360px;
+    bottom: 50vh;
+    left: 50vw;
+    transform: translate(-50%, 50%);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.video {
+    width: 100%;
+}
+
+.controls {
+    width: 100%;
+    height: 10%;
+    background: rgba(107, 107, 107, 0.425);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+.btn {
+    width: 33px;
+    position: relative;
+    top: 1px;
+}
+
+.stop {
+    width: 31px;
+    position: relative;
+    top: 0px;
+}
+
+.btn:hover {
+    background-color: rgba(107, 107, 107, 0.63);
+    border-radius: 7px;
+}
+
+a {
+    position: absolute;
+    bottom: 0px;
+}

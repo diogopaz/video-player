@@ -9,6 +9,7 @@ function play() {
     pauseBtn.removeAttribute("hidden");
     playBtn.setAttribute("hidden", "");
     videoInProgress = true;
+    hideControls();
 }
 
 function pause() {
